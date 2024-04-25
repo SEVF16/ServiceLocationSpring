@@ -3,7 +3,7 @@ package com.example.locationservice.persistence.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "comuna_comuna")
+@Table(name = "comuna")
 public class Comuna {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -6,7 +6,7 @@ public class Comun {
 
     private String nombre;
 
-    private int idR;
+    private Regi regi;
 
     public Long getIdC() {
         return idC;
@@ -24,11 +24,11 @@ public class Comun {
         this.nombre = nombre;
     }
 
-    public int getIdR() {
-        return idR;
+    public Regi getRegi() {
+        return regi;
     }
 
-    public void setIdR(int idR) {
-        this.idR = idR;
+    public void setRegi(Regi regi) {
+        this.regi = regi;
     }
 }

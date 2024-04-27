@@ -11,8 +11,10 @@ public class Comuna {
     private Long id;
     @Column(name = "nombre_comuna")
     private String nombreComuna;
-    @Column(name = "region_id")
-    private int idRegion;
+    @ManyToOne
+    @JoinColumn(name = "region_id")
+    private Region region;
+
 
     public Long getId() {
         return id;
@@ -30,11 +32,11 @@ public class Comuna {
         this.nombreComuna = nombreComuna;
     }
 
-    public int getIdRegion() {
-        return idRegion;
+    public Region getRegion() {
+        return region;
     }
 
-    public void setIdRegion(int idRegion) {
-        this.idRegion = idRegion;
+    public void setRegion(Region region) {
+        this.region = region;
     }
 }

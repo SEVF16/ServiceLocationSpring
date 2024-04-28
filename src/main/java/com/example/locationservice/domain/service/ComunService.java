@@ -1,6 +1,6 @@
 package com.example.locationservice.domain.service;
 
-import com.example.locationservice.domain.Comun;
+import com.example.locationservice.domain.dto.Comun;
 import com.example.locationservice.domain.repository.ComunRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

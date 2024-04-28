@@ -1,4 +1,4 @@
-package com.example.locationservice.domain;
+package com.example.locationservice.domain.dto;
 
 public class Comun {
 

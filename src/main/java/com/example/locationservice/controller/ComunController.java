@@ -1,6 +1,6 @@
 package com.example.locationservice.controller;
 
-import com.example.locationservice.domain.Comun;
+import com.example.locationservice.domain.dto.Comun;
 import com.example.locationservice.domain.service.ComunService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

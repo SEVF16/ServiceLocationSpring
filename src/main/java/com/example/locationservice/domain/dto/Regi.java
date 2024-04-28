@@ -1,7 +1,4 @@
-package com.example.locationservice.domain;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.example.locationservice.domain.dto;
 
 public class Regi {
 

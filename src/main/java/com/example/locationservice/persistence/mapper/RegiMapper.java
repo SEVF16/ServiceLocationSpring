@@ -1,6 +1,6 @@
 package com.example.locationservice.persistence.mapper;
 
-import com.example.locationservice.domain.Regi;
+import com.example.locationservice.domain.dto.Regi;
 import com.example.locationservice.persistence.entity.Region;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

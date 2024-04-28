@@ -1,8 +1,7 @@
 package com.example.locationservice.persistence.mapper;
-import com.example.locationservice.domain.Comun;
-import com.example.locationservice.domain.Regi;
+import com.example.locationservice.domain.dto.Comun;
+import com.example.locationservice.domain.dto.Regi;
 import com.example.locationservice.persistence.entity.Comuna;
-import com.example.locationservice.persistence.entity.Region;
 import org.mapstruct.*;
 import org.mapstruct.factory.Mappers;
 
@@ -25,7 +24,7 @@ public interface ComunMapper {
     Comuna toComuna(Comun Comun);
 
     @AfterMapping
-    default void setStudentSpecialtyFaculty(@MappingTarget Comun comun, Comuna comuna) {
+    default void setComunRegi(@MappingTarget Comun comun, Comuna comuna) {
         Regi r = RegiMapper.INSTANCE.toRegi(comuna.getRegion());
 
 

@@ -2,7 +2,7 @@ package com.example.locationservice.domain.repository;
 
 
 
-import com.example.locationservice.domain.Comun;
+import com.example.locationservice.domain.dto.Comun;
 
 import java.util.List;
 
